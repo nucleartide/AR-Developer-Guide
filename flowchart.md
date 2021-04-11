@@ -1,40 +1,44 @@
-- Adobe Aero
-- Apple AR Quick Look
-- Geolocation APIs (unsure, need to research)
-- Niantic Real World Platform
-- Spatial (
-- model-viewer
-- Mozilla WebXR Viewer
-- SceneViewer
-- Letsee
-- Babylon.js
-- DLib (machine learning)
-- Unreal Engine
-- ViroReact (React Native)
-- Sumerian
-
 # Wearables
+
+Recommendation: ...
 
 - Magic Leap
 - Holo Lens
 
 # Native
 
+Recommendation: ...
+
 - AR Kit
 - AR Core
 - MRTK (Unity)
 - Vuforia (Unity)
 - Wikitude
-- MARS
 - OpenCV
+	- DLib (machine learning)
 - AR Foundation
+- Unreal Engine
+- Unity
+	- MARS
+- ViroReact (React Native)
 
 # Social
+
+Recommendation: ...
 
 - Spark AR
 - Lens Studio
 
+# Mobile
+
+- model-viewer
+- iOS: Apple AR Quick Look
+- Android: SceneViewer
+- Adobe Aero
+
 # Web
+
+Recommendation: ...
 
 - A-Frame
 - Three.js
@@ -47,3 +51,8 @@
 - https://awe.media/
 - 8th Wall
 - Blippar
+- Babylon.js
+- Mozilla WebXR Viewer - experimentation
+- Niantic Real World Platform - if you want to make Geomobile
+- Letsee
+- Sumerian
