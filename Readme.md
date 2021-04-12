@@ -10,25 +10,50 @@ The AR ecosystem can be extremely intimidating for a beginner.
 
 ## First things first
 
-<table>
-	<tr>
-	<td width="200">
-	foo
-	</td>
-	<td width="500">
-	bar
-	</td>
-	</tr>
-</table>
-
 Decide the platform that you want to develop for. Currently, there are 4:
 
-| Platform                                                         | Notes |
-| ---                                                              | --- |
-| Native mobile                            | Good for adding AR to a standalone mobile app.<br />*Examples: iOS, Android.* |
-| Social media            | Good if you're looking to create AR filters & effects for social media. *Examples: Facebook, Instagram, Snapchat.* |
-| Mobile web                                                   | Good if you'd like your AR experience to be easily accessible, by not requiring an app install. |
-| Wearables                       | Generally way too expensive, but good if you have an "enterprise" use case. *Examples: Magic Leap, Holo Lens.* |
+<table>
+	<tr>
+		<th width="200">
+			Platform
+		</th>
+		<th width="800">
+			Notes
+		</th>
+	</tr>
+	<tr>
+		<th width="200">
+			Native mobile
+		</th>
+		<td width="800">
+			Good for adding AR to a standalone mobile app.<br /><br /><em>Examples: iOS, Android.</em>
+		</td>
+	</tr>
+	<tr>
+		<th width="200">
+			Social media
+		</th>
+		<td width="800">
+			Good if you're looking to create AR filters & effects for social media.<br /><br /><em>Examples: Facebook, Instagram, Snapchat.</em>
+		</td>
+	</tr>
+	<tr>
+		<th width="200">
+			Mobile web
+		</th>
+		<td width="800">
+			Good if you'd like your AR experience to be easily accessible, by not requiring an app install.
+		</td>
+	</tr>
+	<tr>
+		<th width="200">
+			Wearables
+		</th>
+		<td width="800">
+			Generally way too expensive, but good if you have an "enterprise" use case.<br /><br /><em>Examples: Magic Leap, Holo Lens.</em>
+		</td>
+	</tr>
+</table>
 
 The rest of this document will discuss tools and recommendations for the platforms above.
 
@@ -38,23 +63,34 @@ It will not discuss wearables, as I believe most beginning AR developers don't w
 
 ## Native apps
 
-| Technology | Type | Comment
-| --- | --- | --- |
-| AR Kit | iOS | --- |
-| AR Core | Android | --- |
-| Unity | Cross-platform engine | --- |
-| Unreal | Cross-platform engine | --- |
-| React Native | Cross-platform engine | --- |
-| Wikitude | Cross-platform SDK | --- |
-| Vuforia | Cross-platform SDK | --- |
-| AR Foundation | Cross-platform SDK | --- |
-| MRTK | Cross-platform SDK | --- |
-| ViroReact | Cross-platform SDK | --- |
-| MARS | Cross-platform SDK | --- |
-| OpenCV | Do-it-yourself library | --- |
-| DLib | Do-it-yourself library | --- |
+### Tools
 
-Recommendation: Use Unity with AR Foundation.
+| &nbsp;&nbsp;&nbsp;Technology&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Comment
+| --- | --- | --- |
+| AR Kit | iOS | Apple's first-party augmented reality SDK. iOS only. |
+| Unity | Cross-platform engine | One of the two big players (the other being Unreal) in the 3D engine space. |
+| Unreal | Cross-platform engine | One of the two big players (the other being Unity) in the 3D engine space. |
+| Wikitude | Cross-platform SDK | An augmented reality SDK. Requires a license. |
+| Vuforia | Cross-platform SDK | An augmented reality SDK. Requires a license. |
+| AR Foundation | Cross-platform SDK | Unity's augmented reality SDK, that provides a uniform API across all XR platforms. You should use this if you're using Unity. |
+| AR Core | Cross-platform SDK | Google's first-party augmented reality SDK. Supports iOS and Android. |
+| MRTK | Cross-platform SDK | Microsoft's SDK for mixed reality applications. Unity only. |
+| ViroReact | Cross-platform SDK | React Native wrapper for AR Kit and AR Core. Useful if you're using React Native. |
+| MARS | Cross-platform SDK | Unity's authoring environment for mixed reality applications. Expensive. |
+| OpenCV | Do-it-yourself library | The classic C++ library for computer vision. Useful if you're opting for a native, do-it-yourself approach. |
+| DLib | Do-it-yourself library | A C++ machine learning library. Containins image processing features that are useful if you're opting for a do-it-yourself approach. |
+
+### Recommendation
+
+If you're starting out, use **Unity** with **AR Foundation**.
+
+AR Foundation delegates the actual augmented reality behavior to **AR Kit** and **AR Core**, so you're actually using Apple's and Google's tech under the hood.
+
+To learn AR Foundation, I haven't found any good courses or tutorials. It seems most people just learn by playing with the official [arfoundation-samples](https://github.com/Unity-Technologies/arfoundation-samples) and [arfoundation-demos](https://github.com/Unity-Technologies/arfoundation-demos).
+
+Also check out the #augmented-reality channel in the [Unity Discord](https://discord.com/invite/unity) for help.
+
+<br />
 
 # Social
 
