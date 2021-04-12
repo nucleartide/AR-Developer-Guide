@@ -10,14 +10,25 @@ The AR ecosystem can be extremely intimidating for a beginner.
 
 ## First things first
 
+<table>
+	<tr>
+	<td width="200">
+	foo
+	</td>
+	<td width="500">
+	bar
+	</td>
+	</tr>
+</table>
+
 Decide the platform that you want to develop for. Currently, there are 4:
 
 | Platform                                                         | Notes |
 | ---                                                              | --- |
-| **Native mobile**<br />*iOS, Android*                            | Good for adding AR to a standalone mobile app. |
-| **Social media**<br />*Facebook, Instagram, Snapchat*            | Good if you're looking to create AR filters & effects for social media. |
-| **Mobile web**                                                   | Good if you'd like your AR experience to be easily accessible, by not requiring an app install. |
-| **Wearables**<br />*Magic Leap, Holo Lens*                       | Generally way too expensive, but good if you have an "enterprise" use case. |
+| Native mobile                            | Good for adding AR to a standalone mobile app.<br />*Examples: iOS, Android.* |
+| Social media            | Good if you're looking to create AR filters & effects for social media. *Examples: Facebook, Instagram, Snapchat.* |
+| Mobile web                                                   | Good if you'd like your AR experience to be easily accessible, by not requiring an app install. |
+| Wearables                       | Generally way too expensive, but good if you have an "enterprise" use case. *Examples: Magic Leap, Holo Lens.* |
 
 The rest of this document will discuss tools and recommendations for the platforms above.
 
@@ -25,28 +36,25 @@ It will not discuss wearables, as I believe most beginning AR developers don't w
 
 <br />
 
-# Native
+## Native apps
+
+| Technology | Type | Comment
+| --- | --- | --- |
+| AR Kit | iOS | --- |
+| AR Core | Android | --- |
+| Unity | Cross-platform engine | --- |
+| Unreal | Cross-platform engine | --- |
+| React Native | Cross-platform engine | --- |
+| Wikitude | Cross-platform SDK | --- |
+| Vuforia | Cross-platform SDK | --- |
+| AR Foundation | Cross-platform SDK | --- |
+| MRTK | Cross-platform SDK | --- |
+| ViroReact | Cross-platform SDK | --- |
+| MARS | Cross-platform SDK | --- |
+| OpenCV | Do-it-yourself library | --- |
+| DLib | Do-it-yourself library | --- |
 
 Recommendation: Use Unity with AR Foundation.
-
-- iOS:
-	- AR Kit
-- Android:
-	- AR Core
-- Cross-platform engines:
-	- Unity
-	- Unreal
-	- React Native
-- Cross-platform SDKs:
-	- Wikitude
-	- Vuforia
-	- AR Foundation (for Unity)
-	- MRTK (for Unity)
-	- ViroReact (for React Native)
-	- MARS (authoring environment for Unity)
-- Do it yourself approach:
-	- OpenCV
-	- DLib (machine learning)
 
 # Social
 
