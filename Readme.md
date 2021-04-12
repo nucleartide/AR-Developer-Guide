@@ -1,4 +1,4 @@
-# ✨📱 The Developer's Guide to Augmented Reality (AR) 📱✨
+# ✨📱 The Developer's Guide to Augmented Reality (AR)
 
 The AR ecosystem can be extremely intimidating for a beginner.
 
