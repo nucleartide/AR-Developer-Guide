@@ -161,4 +161,4 @@ If I missed something, please open an issue or pull request!
 
 I'm a freelance developer focused on mobile AR. 👨🏻‍💻 Check out my freelance portfolio at https://jasont.co/portfolio/.
 
-If you're looking for dev help, drop me a line at `jasontu4@gmail.com`.
+If you're looking for dev help on AR projects, drop me a line at `jasontu4@gmail.com`.
