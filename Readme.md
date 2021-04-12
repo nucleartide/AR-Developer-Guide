@@ -98,16 +98,16 @@ Also check out the `#augmented-reality` channel in the [Unity Discord](https://d
 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Comment |
 | --- | --- |
-| Spark AR | Facebook's authoring tool for creating augmented reality content. Can only publish to Facebook or Instagram. |
-| Lens Studio | Snapchat's authoring tool for creating augmented reality content. Can only publish to Snapchat. |
-| Adobe Aero | Adobe's authoring tool for creating augmented reality content – kinda like Photoshop for AR. Unlike Spark AR or Lens Studio, exported Aero content isn't limited to a social media platform, but rather to iOS; it doesn't work on Android. |
-| Reality Composer | Apple's first-party authoring tool for augmented reality content. Competitor to Adobe Aero. |
+| [Spark AR](https://sparkar.facebook.com/ar-studio/) | Facebook's authoring tool for creating augmented reality content. Can only publish to Facebook or Instagram. |
+| [Lens Studio](https://lensstudio.snapchat.com/) | Snapchat's authoring tool for creating augmented reality content. Can only publish to Snapchat. |
+| [Adobe Aero](https://www.adobe.com/products/aero.html) | Adobe's authoring tool for creating augmented reality content – kinda like Photoshop for AR. Unlike Spark AR or Lens Studio, exported Aero content isn't limited to a social media platform, but rather to iOS; it doesn't work on Android. |
+| [Reality Composer](https://developer.apple.com/augmented-reality/tools/) | Apple's first-party authoring tool for augmented reality content. Competitor to Adobe Aero. |
 
 ### Recommendation
 
 If you know you want to create social media content, then choose either **Spark AR** for Facebook/Instagram, or **Lens Studio** for Snapchat.
 
-Adobe Aero and Reality Composer are neat tools for iOS, and are worth investigating later in your AR journey – if only to learn about AR creation workflows.
+**Adobe Aero** and **Reality Composer** are neat tools for iOS, and are worth investigating later in your AR journey – if only to learn about AR creation workflows.
 
 <br />
 
@@ -117,25 +117,25 @@ Adobe Aero and Reality Composer are neat tools for iOS, and are worth investigat
 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Type | Comment |
 | --- | --- | --- |
-| Three.js | Free | The most widely known 3D library for JavaScript. |
-| A-Frame | Free | A framework built atop Three.js. Has a friendlier, markup-driven approach to declaring the content of your 3D scene. |
-| AR.js | Free | An augmented reality library in JavaScript. Not as feature rich as AR Core or AR Kit in native development, but still useful. |
-| Mediapipe | Free | A machine learning library in JavaScript. Fills the gaps left by AR.js, and is worth a look if you need advanced AR features. |
-| WebXR | Free | This is a web standard, not a specific tool. Useful to understand the concepts though. |
-| Mozilla WebXR Viewer | Free | Mozilla's experimental web browser, containing a full-featured WebXR implementation. Useful for experimenting with WebXR, but not for production use. |
+| [Three.js](https://threejs.org/) | Free | The most widely known 3D library for JavaScript. |
+| [A-Frame](https://aframe.io/) | Free | A framework built atop Three.js. Has a friendlier, markup-driven approach to declaring the content of your 3D scene. |
+| [AR.js](https://ar-js-org.github.io/AR.js-Docs/) | Free | An augmented reality library in JavaScript. Not as feature rich as AR Core or AR Kit in native development, but still useful. |
+| [Mediapipe](https://github.com/google/mediapipe) | Free | A machine learning library in JavaScript. Fills the gaps left by AR.js, and is worth a look if you need advanced AR features. |
+| [WebXR](https://immersiveweb.dev/) | Free | This is a web standard, not a specific tool. Useful to understand the concepts though. |
+| [Mozilla WebXR Viewer](https://labs.mozilla.org/projects/webxr-viewer/) | Free | Mozilla's experimental web browser, containing a full-featured WebXR implementation. Useful for experimenting with WebXR, but not for production use. |
 | [ARWT](https://github.com/ToughNutToCrack/ARWT) | Free | An open source library that allows you to author Web AR applications in Unity. |
-| Babylon.js | Free | Another JavaScript-based game engine. |
-| model-viewer | Free | A web component released by Google. Extremely useful if all you want is to view your 3D models in augmented reality. Uses Apple AR Quick Look and Android SceneViewer under the hood. |
-| Apple AR Quick Look | Free | Apple's iOS-native method for displaying 3D models in augmented reality. |
-| Android SceneViewer | Free | Google's Android-native method for displaying 3D models in augmented reality. |
-| 8th Wall | Paid | The most-recommended solution for a paid Web AR SDK. Too expensive for beginning AR developers, but you should use if your job needs it. |
-| Zappar | Paid | Another paid Web AR SDK. Cheaper than 8th Wall, and equally feature rich. |
-| Blippar | Paid | Another paid Web AR SDK. |
+| [Babylon.js](https://www.babylonjs.com/) | Free | Another JavaScript-based game engine. |
+| [model-viewer](https://modelviewer.dev/) | Free | A web component released by Google. Extremely useful if all you want is to view your 3D models in augmented reality. Uses Apple AR Quick Look and Android SceneViewer under the hood. |
+| [Apple AR Quick Look](https://developer.apple.com/augmented-reality/quick-look/) | Free | Apple's iOS-native method for displaying 3D models in augmented reality. |
+| [Android SceneViewer](https://developers.google.com/ar/develop/java/scene-viewer) | Free | Google's Android-native method for displaying 3D models in augmented reality. |
+| [8th Wall](https://8thwall.com/) | Paid | The most-recommended solution for a paid Web AR SDK. Too expensive for beginning AR developers, but you should use if your job needs it. |
+| [Zappar](https://www.zappar.com/) | Paid | Another paid Web AR SDK. Cheaper than 8th Wall, and equally feature rich. |
+| [Blippar](https://www.blippar.com/) | Paid | Another paid Web AR SDK. |
 | [AWE](https://awe.media/) | Paid | Another paid Web AR SDK. |
-| Letsee | Paid | Another paid Web AR SDK. |
-| PlayCanvas | Freemium | Another JavaScript-based game engine. |
-| Sumerian | Freemium | Amazon's augmented reality offering. Useful if you want to interact heavily with AWS services. |
-| Niantic Real World Platform | Early Access | Niantic's SDK offering. (Niantic is the company behind Pokemon Go.) Looks very promising, and worth checking out. Requires early access though. |
+| [Letsee](https://www.letsee.io/) | Paid | Another paid Web AR SDK. |
+| [PlayCanvas](https://playcanvas.com/) | Freemium | Another JavaScript-based game engine. |
+| [Sumerian](https://aws.amazon.com/sumerian/) | Freemium | Amazon's augmented reality offering. Useful if you want to interact heavily with AWS services. |
+| [Niantic Real World Platform](https://ar.dev/) | Early Access | Niantic's SDK offering. (Niantic is the company behind Pokemon Go.) Looks very promising, and worth checking out. Requires early access though. |
 
 ### Recommendation
 
@@ -143,7 +143,7 @@ The amount of choices is overwhelming here.
 
 However, if you want to build AR content for mobile web, start with **A-Frame**. That'll give you the structure you need to start playing around.
 
-From A-Frame, you can explore the ecosystem of JavaScript libraries (Three.js, AR.js, Mediapipe, WebXR concepts) as you need them.
+From A-Frame, you can explore the ecosystem of JavaScript libraries (**Three.js**, **AR.js**, **Mediapipe**, **WebXR** concepts) as you need them.
 
 On the other hand, if all you need is an AR model viewer for your e-commerce store, then look into Google's **model-viewer**, which uses **Apple AR Quick Look** and **Android SceneViewer** under the hood.
 
@@ -159,6 +159,6 @@ If I missed something, please open an issue or pull request!
 
 ## Who am I?
 
-I'm a freelance developer focused on mobile AR. Check out my freelance portfolio at https://jasont.co/portfolio/.
+I'm a freelance developer focused on mobile AR. 👨🏻‍💻 Check out my freelance portfolio at https://jasont.co/portfolio/.
 
 If you're looking for dev help, drop me a line at `jasontu4@gmail.com`.
