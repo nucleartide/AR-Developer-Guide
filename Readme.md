@@ -67,18 +67,18 @@ It will not discuss wearables, as I believe most beginning AR developers don't w
 
 | &nbsp;&nbsp;&nbsp;Technology&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Comment
 | --- | --- | --- |
-| AR Kit | iOS | Apple's first-party augmented reality SDK. iOS only. |
-| Unity | Cross-platform engine | One of the two big players (the other being Unreal) in the 3D engine space. |
-| Unreal | Cross-platform engine | One of the two big players (the other being Unity) in the 3D engine space. |
-| Wikitude | Cross-platform SDK | An augmented reality SDK. Requires a license. |
-| Vuforia | Cross-platform SDK | An augmented reality SDK. Requires a license. |
-| AR Foundation | Cross-platform SDK | Unity's augmented reality SDK, that provides a uniform API across all XR platforms. You should use this if you're using Unity. |
-| AR Core | Cross-platform SDK | Google's first-party augmented reality SDK. Supports iOS and Android. |
-| MRTK | Cross-platform SDK | Microsoft's SDK for mixed reality applications. Unity only. |
-| ViroReact | Cross-platform SDK | React Native wrapper for AR Kit and AR Core. Useful if you're using React Native. |
-| MARS | Cross-platform SDK | Unity's authoring environment for mixed reality applications. Expensive. |
-| OpenCV | Do-it-yourself library | The classic C++ library for computer vision. Useful if you're opting for a native, do-it-yourself approach. |
-| DLib | Do-it-yourself library | A C++ machine learning library. Containins image processing features that are useful if you're opting for a do-it-yourself approach. |
+| [AR Kit](https://developer.apple.com/augmented-reality/) | iOS | Apple's first-party augmented reality SDK. iOS only. |
+| [Unity](https://unity.com/) | Cross-platform engine | One of the two big players (the other being Unreal) in the 3D engine space. |
+| [Unreal](https://www.unrealengine.com/) | Cross-platform engine | One of the two big players (the other being Unity) in the 3D engine space. |
+| [Wikitude](https://www.wikitude.com/) | Cross-platform SDK | An augmented reality SDK. Requires a license. |
+| [Vuforia](https://www.ptc.com/en/products/vuforia) | Cross-platform SDK | An augmented reality SDK. Requires a license. |
+| [AR Foundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/) | Cross-platform SDK | Unity's augmented reality SDK, that provides a uniform API across all XR platforms. You should use this if you're using Unity. |
+| [AR Core](https://developers.google.com/ar) | Cross-platform SDK | Google's first-party augmented reality SDK. Supports iOS and Android. |
+| [MRTK](https://github.com/microsoft/MixedRealityToolkit-Unity) | Cross-platform SDK | Microsoft's SDK for mixed reality applications. Unity only. |
+| [ViroReact](https://viromedia.com/viroreact) | Cross-platform SDK | React Native wrapper for AR Kit and AR Core. Useful if you're using React Native. |
+| [MARS](https://unity.com/products/unity-mars) | Cross-platform SDK | Unity's authoring environment for mixed reality applications. Expensive. |
+| [OpenCV](https://opencv.org/) | Do-it-yourself library | The classic C++ library for computer vision. Useful if you're opting for a native, do-it-yourself approach. |
+| [DLib](http://dlib.net/) | Do-it-yourself library | A C++ machine learning library. Containins image processing features that are useful if you're opting for a do-it-yourself approach. |
 
 ### Recommendation
 
