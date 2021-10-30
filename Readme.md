@@ -136,6 +136,7 @@ If you know you want to create social media content, then choose either **Spark 
 | [PlayCanvas](https://playcanvas.com/) | Freemium | Another JavaScript-based game engine. |
 | [Sumerian](https://aws.amazon.com/sumerian/) | Freemium | Amazon's augmented reality offering. Useful if you want to interact heavily with AWS services. |
 | [Niantic Real World Platform](https://ar.dev/) | Early Access | Niantic's SDK offering. (Niantic is the company behind Pokemon Go.) Looks very promising, and worth checking out. Requires early access though. |
+| [react-xr](https://github.com/pmndrs/react-xr) | Free | A framework of React components and hooks for creating AR and VR experiences based on react-three-fiber. |
 
 ### Recommendation
 
